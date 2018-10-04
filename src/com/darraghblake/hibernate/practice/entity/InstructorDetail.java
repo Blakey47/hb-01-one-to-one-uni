@@ -39,7 +39,6 @@ public class InstructorDetail {
 	}
 
 	public InstructorDetail(String website, String hobby) {
-		super();
 		this.website = website;
 		this.hobby = hobby;
 	}
