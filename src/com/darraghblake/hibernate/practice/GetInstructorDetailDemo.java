@@ -31,7 +31,7 @@ public class GetInstructorDetailDemo {
 			
 			// get instructor detail object
 			// example ID number provided via local Database
-			int theId = 21;
+			int theId = 22;
 			InstructorDetail tempInstructorDetail = session.get(InstructorDetail.class, theId);
 			
 			// print the instructor detail
