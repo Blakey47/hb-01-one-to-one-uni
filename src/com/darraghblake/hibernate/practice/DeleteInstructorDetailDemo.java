@@ -42,6 +42,7 @@ public class DeleteInstructorDetailDemo {
 			
 			// delete the instructor detail
 			System.out.println("Deleting tempInstructor: " + tempInstructorDetail);
+			tempInstructorDetail.getInstructor().setInstructorDetail(null);
 			session.delete(tempInstructorDetail);
 		
 			// commit transaction

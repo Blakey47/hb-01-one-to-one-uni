@@ -7,7 +7,6 @@ import org.hibernate.cfg.Configuration;
 import com.darraghblake.hibernate.practice.entity.Instructor;
 import com.darraghblake.hibernate.practice.entity.InstructorDetail;
 
-
 public class CreateInstructorDemo {
 
 	public static void main(String[] args) {
